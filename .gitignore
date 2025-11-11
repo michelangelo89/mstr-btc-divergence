@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+# data artifacts
+data/db/*.duckdb
+data/raw/
+# optional: keep processed & external under git (comment out if you want them ignored)
+# data/processed/
+# data/external/
+
+# data files
+/data/db/*.duckdb
+/data/db/*.wal
+/data/raw/
+/data/processed/
+
